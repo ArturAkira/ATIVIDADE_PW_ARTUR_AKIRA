@@ -14,11 +14,11 @@ body{
     border: solid;
     border-bottom: solid,blue;
 }
-.cont{
-
+main{
+    text-align: center;
 }
-.rodape{
-
+footer{
+    text-align: center;
 }
 h1{
     text-align: center;
@@ -31,12 +31,15 @@ h2,h3,h4,h5,h6{
 a{
 
 }
-button{
-
-}
-:hover{
-
-}
 p{
     color: antiquewhite;
+}
+
+.button{
+    font-size: 200px;
+    text-align: center;
+    background-color: green;
+}
+.button:hover{
+    background-color: blue;
 }
